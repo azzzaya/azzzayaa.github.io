@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Аззаяа Даваадорж</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #ffffff;
+      color: #111111;
+      overflow-x: hidden;
+    }
+
+    header {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      opacity: 0;
+      animation: slideIn 2s ease forwards;
+    }
+
+    p.subtitle {
+      font-size: 1.2rem;
+      max-width: 600px;
+      text-align: center;
+      line-height: 1.6;
+      opacity: 0;
+      animation: fadeInText 3s ease forwards;
+      animation-delay: 1s;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+      line-height: 1.8;
+      font-size: 1.1rem;
+      animation: slowReveal 2s ease-in-out forwards;
+      opacity: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    @keyframes slideIn {
+      0% { transform: translateY(20px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes fadeInText {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slowReveal {
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Аззаяа Даваадорж</h1>
+    <p class="subtitle">
+      Driven by sincerity and responsibility, I turn challenges into growth opportunities and navigate life with a deep passion for learning and self-improvement.
+    </p>
+  </header>
+
+  <section>
+    <h2>Professional Profile</h2>
+    <p>
+      Experienced in administrative support, human resources, and basic financial operations. Skilled in document management, reporting, internal coordination, and maintaining organizational efficiency. Highly responsible, adaptable, and capable of handling workloads independently or within a team. Committed to continuous learning, goal-oriented, and effective in professional communication.
+    </p>
+
+    <h2 style="margin-top: 2rem;">Contact</h2>
+    <p>Email: <a href="mailto:azzaya.1202@icloud.com">azzaya.1202@icloud.com</a></p>
+    <p>Phone: +976-60096383</p>
+    <p>Instagram: <a href="https://instagram.com/azzzayaa" target="_blank">@azzzayaa</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Аззаяа Даваадорж
+  </footer>
+</body>
+</html>
